@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Toggles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="toggle-grid">
+
+        <div class="toggle-cell" id="cell-1">
+            <div class="yes-no-toggle">
+                <input type="checkbox" id="yes-no" class="toggle-input">
+                <label for="yes-no" class="toggle-label">
+                    <div class="toggle-thumb">
+                        <div class="icon">
+                            <svg class="icon-cross" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="18" y1="6" x2="6" y2="18"></line>
+                                <line x1="6" y1="6" x2="18" y2="18"></line>
+                            </svg>
+                            <svg class="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                </label>
+            </div>
+        </div>
+
+        <div class="toggle-cell" id="cell-2">
+            <div class="gravity-toggle">
+                <input type="checkbox" id="gravity" class="toggle-input">
+                
+                <div class="gravity-track"></div>
+                
+                <label for="gravity" class="gravity-thumb-label"></label>
+            </div>
+        </div>
+
+        <div class="toggle-cell" id="cell-3">
+            <div class="basketball-toggle">
+                <input type="checkbox" id="basketball" class="toggle-input">
+                
+                <label for="basketball" class="basketball-court">
+                    
+                    <div class="basketball-ball">
+                        <svg class="basketball-ball-svg" viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="48" fill="#E67E22"/>
+                            <path d="M50,2 A48,48 0 0,0 50,98" stroke="#000" stroke-width="3" fill="none"/>
+                            <path d="M2,50 A48,48 0 0,1 98,50" stroke="#000" stroke-width="3" fill="none"/>
+                            <path d="M25,20 A40,40 0 0,1 75,80" stroke="#000" stroke-width="3" fill="none"/>
+                            <path d="M25,80 A40,40 0 0,0 75,20" stroke="#000" stroke-width="3" fill="none"/>
+                        </svg>
+                    </div>
+                    
+                </label>
+                
+                <div class="basketball-basket">
+                    <div class="basket-post"></div>      
+                    <div class="basket-backboard"></div> 
+                    <div class="basket-net"></div>       
+                </div>
+            </div>
+        </div>
+
+        <div class="toggle-cell" id="cell-4">
+            <div class="golf-toggle">
+                <input type="checkbox" id="golf" class="toggle-input">
+                
+                <label for="golf" class="golf-course">
+                    
+                    <div class="golf-club"></div>
+                    
+                    <div class="golf-pocket"></div>
+                    
+                    <div class="golf-ball"></div>
+
+                </label>
+                
+                <div class="golf-flag">
+                    <div class="flag-pole"></div>
+                    <div class="flag-cloth">Off</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="toggle-cell" id="cell-5">
+            <div class="cat-paw-toggle">
+                <input type="checkbox" id="cat-paw" class="toggle-input">
+                
+                <label for="cat-paw" class="cat-paw-track">
+                    
+                    <div class="laser-dot"></div>
+                    
+                </label>
+                
+                <div class="cat-paw">
+                    <svg viewBox="0 0 100 100">
+                        <g transform="rotate(180 50 50)"> 
+                            <path d="M50,85 C30,95 10,85 10,65 C10,45 30,35 50,45 C70,35 90,45 90,65 C90,85 70,95 50,85Z" fill="#FFDDC9"/>
+                        
+                            <circle cx="28" cy="40" r="10" fill="#FFC0A0"/>
+                            <circle cx="50" cy="30" r="10" fill="#FFC0A0"/>
+                            <circle cx="72" cy="40" r="10" fill="#FFC0A0"/>
+                            <circle cx="50" cy="65" r="15" fill="#FFC0A0"/>
+
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js" defer></script>
+
+</body>
+</html>
